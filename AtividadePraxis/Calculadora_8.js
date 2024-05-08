@@ -32,8 +32,8 @@ function iniciarCalculadora() {
       return;
     }
 
-    rl.question('Digite o primeiro Numero: ', (operando1) => {
-      rl.question('Digite o segundo Numero: ', (operando2) => {
+    rl.question('Digite o primeiro número: ', (operando1) => {
+      rl.question('Digite o segundo número: ', (operando2) => {
         const resultado = calcular(operacao, parseFloat(operando1), parseFloat(operando2));
         console.log(`Resultado: ${resultado}`);
         iniciarCalculadora(); 
